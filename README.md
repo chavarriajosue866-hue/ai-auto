@@ -43,14 +43,3 @@ Send a POST request to /api/tasks/ with a prompt like:
    {
      "prompt": "Go to https://news.ycombinator.com/ and tell me the title of the first news item."
    }
-   📂 Project Structure
-   ai-auto/
-├── app/
-│   ├── agents/      # AI Brain and Tool Calling logic
-│   ├── api/         # FastAPI routes and endpoints
-│   ├── automation/  # Hands (Async Playwright)
-│   ├── core/        # Configuration and DB connection
-│   ├── models/      # SQLAlchemy models
-│   └── main.py      # Entry point
-├── .env             # Environment variables (Ignored by Git)
-└── requirements.txt
