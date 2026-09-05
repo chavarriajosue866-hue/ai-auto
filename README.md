@@ -52,16 +52,3 @@ Send a POST request to /api/tasks/ with a natural language prompt:
    }
 
 The server will immediately return a task_id, and the AI agent will execute the task in the background, updating the database upon completion.
-📂 Project Structure
-
-ai-auto/
-├── app/
-│   ├── agents/      # AI Brain and Tool Calling logic
-│   ├── api/         # FastAPI routes and endpoints
-│   ├── automation/  # Hands (Async Playwright implementation)
-│   ├── core/        # Configuration and DB connection
-│   ├── models/      # SQLAlchemy database models
-│   └── main.py      # Application entry point
-├── .env             # Environment variables (Ignored by Git)
-├── .gitignore       # Git ignore rules
-└── requirements.txt # Python dependencies
